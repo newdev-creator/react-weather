@@ -4,7 +4,7 @@ import browser from "./assets/browser.svg";
 import "./App.css";
 
 const APIKEY = import.meta.env.VITE_WEATHER_API_KEY;
-const API_URL = `http://api.airvisual.com/v2/nearest_city?key=${APIKEY}`;
+const API_URL = `https://api.airvisual.com/v2/nearest_city?key=${APIKEY}`;
 
 const fetchData = async () => {
   try {
